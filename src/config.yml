@@ -1,0 +1,89 @@
+messages:
+  tokenused: '&8&l[&b&lZydoxRepair&8&l] &fYou just used a repair token!'
+  giventoken: '&8&l[&b&lZydoxRepair&8&l] &fYou just got given some repair tokens'
+  boughttoken: '&8&l[&b&lZydoxRepair&8&l] &fBought &b%amount% &ftokens for &b%cost%'
+  notrepairable: '&8&l[&b&lZydoxRepair&8&l] &fYou can only repair armour and tools'
+  alreadyrepaired: '&8&l[&b&lZydoxRepair&8&l] &fThat item is already at max health'
+  nopermission: '&8&l[&b&lZydoxRepair&8&l] &fYou do not have permission to do that!'
+  insufficientfunds: '&8&l[&b&lZydoxRepair&8&l] &fYou do not have enough money to buy that!'
+
+gui:
+  size: 27
+  title: 'Blacksmith Token Shop'
+
+tokenitem:
+  name: '&7&lRepair Token'
+  lore:
+  - '&fClick on a item in your inventory to repair it'
+  - '&fOnly works on tools and armour'
+  material: FIREBALL
+  enchanted: true
+
+fillitem:
+  name: ' '
+  material: STAINED_GLASS_PANE:5
+  enchanted: false
+
+guiitems:
+  1bundle:
+    name: '&b1 Token'
+    lore:
+      - '&fBuy 1 Repair token'
+      - '&fCost: &b1000'
+    amount: 1
+    cost: 1000
+    invslot: 10
+
+  2bundle:
+    name: '&b2 Tokens'
+    lore:
+      - '&fBuy 2 Repair tokens'
+      - '&fCost: &b2000'
+    amount: 2
+    cost: 2000
+    invslot: 11
+
+  5bundle:
+    name: '&b5 Tokens'
+    lore:
+      - '&fBuy 5 Repair tokens'
+      - '&fCost: &b4900'
+    amount: 5
+    cost: 4900
+    invslot: 12
+
+  10bundle:
+    name: '&b10 Tokens'
+    lore:
+      - '&fBuy 10 Repair tokens'
+      - '&fCost: &b9700'
+    amount: 10
+    cost: 9700
+    invslot: 13
+
+  15bundle:
+    name: '&b15 Tokens'
+    lore:
+      - '&fBuy 15 Repair tokens'
+      - '&fCost: &b14600'
+    amount: 15
+    cost: 14600
+    invslot: 14
+
+  25bundle:
+    name: '&b25 Tokens'
+    lore:
+      - '&fBuy 25 Repair tokens'
+      - '&fCost: &b23000'
+    amount: 25
+    cost: 23000
+    invslot: 15
+
+  50bundle:
+    name: '&b50 Tokens'
+    lore:
+      - '&fBuy 50 Repair tokens'
+      - '&fCost: &b45000'
+    amount: 50
+    cost: 45000
+    invslot: 16

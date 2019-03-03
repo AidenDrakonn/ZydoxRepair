@@ -1,0 +1,11 @@
+name: ZydoxRepair
+version: 0.0.1
+main: me.drakonn.zydoxrepair.ZydoxRepair
+author: Drakonn
+commands:
+  blacksmith:
+    aliases: [bs]
+    description: Opens blacksmith token gui
+  zrepair:
+    aliases: [zr, zydoxrepair]
+    description: ZydoxRepair admin command
